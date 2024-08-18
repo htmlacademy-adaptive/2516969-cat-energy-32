@@ -15,11 +15,19 @@
 
 <body class="page__body">
   <header class="header">
-    <a class="header__logo-picture" href="#">
-      <img width="33" height="38" src="#" alt="Логотип страницы">
+    <a class="header__logo-link" href="#">
+      <picture>
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70" height="59">
+        <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-tablet.svg" width="60" height="50">
+        <img class="header__logo-picture" width="33" height="38" src="images/logo-mobile.svg" alt="Логотип страницы">
+      </picture>
     </a>
-    <a class="header__logo-name" href="#">
-      <img width="101" height="18" src="#" alt="Логотип страницы">
+    <a class="header__logo-link" href="#">
+      <picture>
+        <source type="image/svg+xml" media="(min-width: 1440px)" srcset="images/logo-desktop-text.svg" width="118" height="59">
+        <source type="image/svg+xml" media="(min-width: 768px)" srcset="images/logo-tablet-text.svg" width="101" height="50">
+        <img class="header__logo-picture" width="101" height="38" src="images/logo-mobile-text.svg" alt="Логотип страницы">
+      </picture>
     </a>
     <button class="header__nav-button" type="button">Открыть навигацию</button>
 
