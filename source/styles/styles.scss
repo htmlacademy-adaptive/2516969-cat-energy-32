@@ -1,9 +1,10 @@
 // COMMON
 @import "./common/variables";
-@import "./common/global";
 @import "./common/fonts";
+@import "./common/mixins";
+@import "./common/global";
 
 // BLOCKS
-@import "./blocks/header";
-@import "./blocks/nav";
-@import "./blocks/footer";
+// @import "./blocks/header";
+// @import "./blocks/nav";
+// @import "./blocks/footer";
