@@ -1,0 +1,24 @@
+.programs__item {
+  background-color: #f2f2f2;
+}
+
+.program__title {
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.program__text {
+  font-family: "Lato", sans-serif;
+  font-style: 14px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.program__link {
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: inherit;
+}
