@@ -1,9 +1,21 @@
 // COMMON
 @import "./common/variables";
-@import "./common/global";
+@import "./common/mixins";
 @import "./common/fonts";
+@import "./common/global";
 
 // BLOCKS
+@import "./blocks/button";
 @import "./blocks/header";
 @import "./blocks/nav";
+@import "./blocks/hero";
+@import "./blocks/programs";
+@import "./blocks/how-it-works";
+@import "./blocks/example";
+@import "./blocks/location";
 @import "./blocks/footer";
+@import "./blocks/catalog";
+@import "./blocks/product";
+@import "./blocks/more-products";
+@import "./blocks/additional-products";
+@import "./blocks/subscribe";

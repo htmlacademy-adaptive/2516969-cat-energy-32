@@ -1,0 +1,35 @@
+.example {
+  background-color: #eaeaea;
+}
+
+.example__title {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+}
+
+.example__description {
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.example__number {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.example__number-description {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: $text-color;
+}
+
+.example__price {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
