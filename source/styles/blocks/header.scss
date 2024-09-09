@@ -3,3 +3,11 @@ header {
   line-height: 20px;
   background-color: #ffffff;
 }
+
+.header__logo-link:hover {
+  opacity: 0.8;
+}
+
+.header__logo-link:focus {
+  opacity: 0.6;
+}
