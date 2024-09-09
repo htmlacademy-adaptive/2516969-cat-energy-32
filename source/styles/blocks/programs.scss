@@ -1,3 +1,8 @@
+.programs__list {
+  text-decoration: none;
+  list-style: none;
+}
+
 .programs__item {
   background-color: #f2f2f2;
 }
@@ -7,6 +12,7 @@
   line-height: 37px;
   text-transform: uppercase;
   font-weight: 400;
+  text-align: center;
 }
 
 .program__text {
@@ -21,4 +27,28 @@
   line-height: 16px;
   text-transform: uppercase;
   color: inherit;
+  display: flex;
+}
+
+.program__link::after {
+  content: "";
+  margin-left: 15px;
+  background-image: url("../../icons/stack.svg#icon-arrow");
+  background-size: 24px 12px;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 12px;
+}
+
+
+.program--lose-weight {
+  background-image: url("../../icons/stack.svg#slim-cat");
+  background-size: 50px 53px;
+  background-repeat: no-repeat;
+}
+
+.program--gain-weight {
+  background-image: url("../../icons/stack.svg#pro-cat");
+  background-size: 67px 50px;
+  background-repeat: no-repeat;
 }
